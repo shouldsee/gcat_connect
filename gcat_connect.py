@@ -171,6 +171,5 @@ if __name__=='__main__':
     import sys
     if '--test' in sys.argv:
         main(argv='--ALIAS gcat --PASS somepass --USER ubuntu --SSH_PORT 22 --HOST www.example.com'.split())
-        # main(argv='--ALIAS gcat --PASS 123456ok --USER td --SSH_PORT 22 --HOST 192.168.50.132'.split())
     else:
         main()
